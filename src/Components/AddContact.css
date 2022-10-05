@@ -1,0 +1,51 @@
+.addCon-mainContainer {
+    background-color: rgb(223, 223, 223, 0.7);
+    width: 100vw;
+    height: 100vh;
+    z-index: 300;
+    position: absolute;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+
+}
+
+.addCon-con {
+    width: 300px;
+    height: fit-content;
+    background-color: whitesmoke;
+    padding: 20px;
+    margin-top: 100px;
+    box-shadow: 1px 2px 4px 1px rgba(0,0,0,0.2);
+
+}
+.addcon{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0892D0;
+}
+.inputText{
+    font-size: 18px;
+    margin: 10px;
+    color: #0892D0;
+}
+form, label, input{
+    margin: 10px;
+}
+
+#number, #name {
+    width: 200px;
+    height: 24px;
+    font-size: 18px;
+}
+#submit{
+    width: 80px;
+    height: 32px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color:#0892D0;
+    color: whitesmoke
+}
+#submit:active{
+    scale: 1.02;
+}
