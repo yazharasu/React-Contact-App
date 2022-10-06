@@ -1,16 +1,13 @@
 import React from 'react'
 import { useState } from 'react';
 import List from './List';
-import './ContactsPage.css'
-import AddContact from './AddContact';
+import './ContactsPage.css';
+import data from '../Assets/data.json';
+
 
 const ContactsPage = ( {addContact, toggleAddContact}) => {
 
-  let contactData = [
-    {'name': 'iamneo', 'mobile': "12345678" },
-    {'name': 'NeoJarvis', 'mobile': "457895575" },
-    {'name': 'NeoStark', 'mobile': "c2225584455" }
-  ]
+  let contactData = data.data;
 
   
   return (

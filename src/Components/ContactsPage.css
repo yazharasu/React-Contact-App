@@ -17,3 +17,13 @@
 .addConBut:active {
     scale: 1;
 }
+.close-icon {
+    float: right;
+    font-weight: 600;
+    text-align: center;
+    color: #0892D0;
+}
+
+.close-icon:active {
+    scale: 1.2;
+}

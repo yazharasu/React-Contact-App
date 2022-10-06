@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      { addContact && <AddContact setAddContact={setAddContact} /> }
+      { addContact && <AddContact toggleAddContact={toggleAddContact} /> }
       <ContactsPage  addContact={addContact} toggleAddContact={toggleAddContact} />
     </div>
   );
